@@ -1,0 +1,89 @@
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+	
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+				
+	
+	
+	.form-bg {
+		width: 396px;
+		height: 519px;
+		
+		margin: 100px auto 0; /*el margen*/
+		
+}
+
+	.form-bg form {
+		width: 400px;
+		height: 360px;
+		background:  url(images/login_form.png);
+    margin-top: 42px;
+}
+	
+
+	
+	.imputPass{
+		
+		-webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: 0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 250px;
+  border-radius: 3px;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+  font-weight: 300;
+	
+		
+	}
+	
+	.imputUser{
+		
+		-webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: 0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 250px;
+  border-radius: 3px;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+  font-weight: 300;
+		
+		
+	}
+	
+	.aspButton{background-image: url(Imagenes/boton.png);vertical-align:middle; height:27px; border : none; min-width:95px; background-repeat: no-repeat; color :White;cursor: pointer; text-transform:uppercase; font-weight: normal; font-family:sans-serif; font-size:14px;}
+
+.aspButtonSearch{background-image: url(Imagenes/boton.png);vertical-align:middle; height:27px; border : none; min-width:95px; background-repeat: no-repeat; color :White;cursor: pointer; text-transform:uppercase; font-weight: normal; font-family:sans-serif; font-size:14px;}
+
+.btnBus{background-image: url(Imagenes/btnBusOn.png); display:block; width:114px; height:100px; text-decoration: none; cursor: pointer;}
+.btnBus:hover {background-image: url(Imagenes/btnBusOff.png);}
+
+.btnAe{background-image: url(Imagenes/btnAeOn.png); display:block; width:114px; height:100px; text-decoration: none; cursor: pointer;}
+.btnAe:hover {background-image: url(Imagenes/btnAeOff.png);}
+

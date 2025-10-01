@@ -1,0 +1,434 @@
+[08-May-2023 17:33:23 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:33:23 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:33:23 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:33:23 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:33:23 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:33:23 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:33:23 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:33:23 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:33:23 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:33:23 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:33:23 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:33:30 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:33:30 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:33:30 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:33:30 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:33:30 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:33:30 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:33:30 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:33:30 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:33:30 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:33:30 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:33:30 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:35:25 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:35:25 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:35:25 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:35:25 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:35:25 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:35:25 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:35:25 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:35:25 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:35:25 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:35:25 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:35:25 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:35:37 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:35:37 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:35:37 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:35:37 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:35:37 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:35:37 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:35:37 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:35:37 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:35:37 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:35:37 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:35:37 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:35:49 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:35:49 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:35:49 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:35:49 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:35:49 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:35:49 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:35:49 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:35:49 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:35:49 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:35:49 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:35:49 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:37:34 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:37:34 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:37:34 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:37:34 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:37:34 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:37:34 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:37:34 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:37:34 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:37:34 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:37:34 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:37:34 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:37:45 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:37:45 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:37:45 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:37:45 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:37:45 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:37:45 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:37:45 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:37:45 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:37:45 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:37:45 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:37:45 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:38:29 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:38:29 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:38:29 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:38:29 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:38:29 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:38:29 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:38:29 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:38:29 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:38:29 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:38:29 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:38:29 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:39:35 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:39:35 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:39:35 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:39:35 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:39:35 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:39:35 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:39:35 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:39:35 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:39:35 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:39:35 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:39:35 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:39:49 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:39:49 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:39:49 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:39:49 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:39:49 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:39:49 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:39:49 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:39:49 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:39:49 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:39:49 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:39:49 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:39:59 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:39:59 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:39:59 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:39:59 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:39:59 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:39:59 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:39:59 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:39:59 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:39:59 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:39:59 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:39:59 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:41:15 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:41:15 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:41:15 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:41:15 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:41:15 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:41:15 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:41:15 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:41:15 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:41:15 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:41:15 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:41:15 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:41:24 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:41:24 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:41:24 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:41:24 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:41:24 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:41:24 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:41:24 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:41:24 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:41:24 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:41:24 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:41:24 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:41:25 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:41:25 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:41:25 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:41:25 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:41:25 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:41:25 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:41:25 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:41:25 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:41:25 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:41:25 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:41:25 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:41:31 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:41:31 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:41:31 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:41:31 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:41:31 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:41:31 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:41:31 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:41:31 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:41:31 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:41:31 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:41:31 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:41:32 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:41:32 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:41:32 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:41:32 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:41:32 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:41:32 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:41:32 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:41:32 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:41:32 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:41:32 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:41:32 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:42:00 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:42:00 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:42:00 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:42:00 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:42:00 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:42:00 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:42:00 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:42:00 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:42:00 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:42:00 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:42:00 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:42:31 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:42:31 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:42:31 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:42:31 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:42:31 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:42:31 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:42:31 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:42:31 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:42:31 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:42:31 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:42:31 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:43:13 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:43:13 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:43:13 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:43:13 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:43:13 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:43:13 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:43:13 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:43:13 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:43:13 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:43:13 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:43:13 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:43:17 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:43:17 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:43:17 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:43:17 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:43:17 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:43:17 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:43:17 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:43:17 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:43:17 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:43:17 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:43:17 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:44:50 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:44:50 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:44:50 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:44:50 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:44:50 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:44:50 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:44:50 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:44:50 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:44:50 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:44:50 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:44:50 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:44:51 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:44:51 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:44:51 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:44:51 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:44:51 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:44:51 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:44:51 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:44:51 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:44:51 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:44:51 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:44:51 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:45:10 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:45:10 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:45:10 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:45:10 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:45:10 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:45:10 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:45:10 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:45:10 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:45:10 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:45:10 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:45:10 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:45:11 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:45:11 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:45:11 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:45:11 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:45:11 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:45:11 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:45:11 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:45:11 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:45:11 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:45:11 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:45:11 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:45:19 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:45:19 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:45:19 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:45:19 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:45:19 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:45:19 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:45:19 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:45:19 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:45:19 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:45:19 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:45:19 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:45:19 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:45:19 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:45:19 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:45:19 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:45:19 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:45:19 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:45:19 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:45:19 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:45:19 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:45:19 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:45:19 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:47:24 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:47:24 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:47:24 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:47:24 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:47:24 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:47:24 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:47:24 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:47:24 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:47:24 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:47:24 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:47:24 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:47:25 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:47:25 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:47:25 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:47:25 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:47:25 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:47:25 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:47:25 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:47:25 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:47:25 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:47:25 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:47:25 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:48:22 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:48:22 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:48:22 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:48:22 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:48:22 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:48:22 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:48:22 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:48:22 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:48:22 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:48:22 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:48:22 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:48:23 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:48:23 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:48:23 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:48:23 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:48:23 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:48:23 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:48:23 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:48:23 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:48:23 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:48:23 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:48:23 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
+[08-May-2023 17:50:33 America/Lima] PHP Warning:  include_once(/home3/segurosm/public_html/prestacional/config.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:50:33 America/Lima] PHP Warning:  include_once(): Failed opening '/home3/segurosm/public_html/prestacional/config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 3
+[08-May-2023 17:50:33 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:50:33 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:50:33 America/Lima] PHP Warning:  include(MODEL_PATHpacientes.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:50:33 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHpacientes.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 4
+[08-May-2023 17:50:33 America/Lima] PHP Warning:  Use of undefined constant MODEL_PATH - assumed 'MODEL_PATH' (this will throw an Error in a future version of PHP) in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:50:33 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:50:33 America/Lima] PHP Warning:  include(MODEL_PATHglobal.php): failed to open stream: No such file or directory in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:50:33 America/Lima] PHP Warning:  include(): Failed opening 'MODEL_PATHglobal.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 5
+[08-May-2023 17:50:33 America/Lima] PHP Fatal error:  Uncaught Error: Class 'Pacientes' not found in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php:8
+Stack trace:
+#0 {main}
+  thrown in /home3/segurosm/public_html/hnal/Vistas/auto/gridDiagnosticosAuto.php on line 8
