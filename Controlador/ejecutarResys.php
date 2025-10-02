@@ -140,6 +140,7 @@ include_once 'controllerResys.php';
 							$usuario='mlimache';
 							$clave='123456';
 							$ObtenerFua=ObtenerFua($url_produccion,$usuario,$clave,$IdCuentaAtencion);
+							
 							if($ObtenerFua["resultado"])
 							{
 								$datos=$ObtenerFua["fua"];
@@ -150,6 +151,9 @@ include_once 'controllerResys.php';
 
 							if($resultado)
 							{
+								
+
+
 								$fileLocation=$IdCuentaAtencion.".xlsx";
 								file_put_contents($fileLocation,$ObtenerFua["fua"]);
 								header('Content-Description: File Transfer');

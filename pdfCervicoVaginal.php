@@ -275,6 +275,11 @@ function printThis() {
 									<td colspan="10" rowspan="1" style="font-size: 12px;"><span style="font-size:12px">&nbsp; &nbsp;<?php echo $mue["CRE"]; ?></span></td>
 
 								</tr>
+
+								<tr>
+								<td colspan="11" rowspan="1"><span style="font-size:12px"></span></td>
+								<td colspan="10" rowspan="1" style="font-size: 12px;"><span style="font-size:12px">Especifique:&nbsp;</span>&nbsp; &nbsp;<?php echo strtoupper($mue["espeCambioReac"]); ?></td>
+							</tr>
 								
 								
 								<tr>
