@@ -140,7 +140,6 @@ include_once 'controllerResys.php';
 							$usuario='mlimache';
 							$clave='123456';
 							$ObtenerFua=ObtenerFua($url_produccion,$usuario,$clave,$IdCuentaAtencion);
-							
 							if($ObtenerFua["resultado"])
 							{
 								$datos=$ObtenerFua["fua"];
@@ -151,9 +150,6 @@ include_once 'controllerResys.php';
 
 							if($resultado)
 							{
-								
-
-
 								$fileLocation=$IdCuentaAtencion.".xlsx";
 								file_put_contents($fileLocation,$ObtenerFua["fua"]);
 								header('Content-Description: File Transfer');
@@ -367,11 +363,73 @@ include_once 'controllerResys.php';
 				break;
 			
 
-				default:
-						$mensaje="Opcion Incorrecta";
-		}
-	else
-		$mensaje='No se Ingreso el parametro opcionResys';
-
- echo json_encode(["resultado"=>$resultado,"mensaje"=>$mensaje,"datos"=>$datos]);
-?>
+				case 20:
+					include_once 'Conexion.php';
+					$conn = Conectar::conexion(); // conexión MySQLi
+				
+					// Capturar parámetros
+					$IdCuentaAtencion   = $_REQUEST['IdCuentaAtencion'] ?? null;
+					$NroOrdenMovimiento = $_REQUEST['NroOrdenMovimiento'] ?? null; // del JS
+					$IdNumMovimiento    = $_REQUEST['IdNumMovimiento'] ?? null;    // del JS
+					$procedimiento      = $_REQUEST['procedimiento'] ?? null;
+				
+					try {
+						// Validar parámetros
+						$faltantes = [];
+						if (!$IdCuentaAtencion)   $faltantes[] = 'IdCuentaAtencion';
+						if (!$NroOrdenMovimiento) $faltantes[] = 'NroOrdenMovimiento';
+						if (!$IdNumMovimiento)    $faltantes[] = 'IdNumMovimiento';
+						if (!$procedimiento)      $faltantes[] = 'procedimiento';
+				
+						if (!empty($faltantes)) {
+							throw new Exception("Faltan parámetros requeridos: " . implode(", ", $faltantes));
+						}
+				
+						// --- 1) Obtener el último idPato de la cuenta ---
+						$sqlGetPato = "SELECT idPato 
+									   FROM tbl_registropacientespatologia 
+									   WHERE IdCuentaAtencion = ? 
+									   ORDER BY idPato ASC LIMIT 1";
+						$stmtPato = $conn->prepare($sqlGetPato);
+						if (!$stmtPato) throw new Exception("Error al preparar sqlGetPato: " . $conn->error);
+						$stmtPato->bind_param("i", $IdCuentaAtencion);
+						$stmtPato->execute();
+						$resultPato = $stmtPato->get_result();
+				
+						if ($resultPato->num_rows == 0) {
+							throw new Exception("No se encontró idPato para IdCuentaAtencion");
+						}
+				
+						$rowPato = $resultPato->fetch_assoc();
+						$idPato = $rowPato['idPato'];
+				
+						// --- 2) Insertar en tbl_apoyo_inmunohistoquimica ---
+						$sqlInsert = "INSERT INTO tbl_apoyo_inmunohistoquimica 
+									  (IdCuentaAtencion, idPato, NroOrdenMovimiento, IdNumMovimiento, procedimiento, fechaRegistro)
+									  VALUES (?, ?, ?, ?, ?, NOW())";
+						$stmtInsert = $conn->prepare($sqlInsert);
+						if (!$stmtInsert) throw new Exception("Error al preparar sqlInsert: " . $conn->error);
+						$stmtInsert->bind_param("iiiii", $IdCuentaAtencion, $idPato, $NroOrdenMovimiento, $IdNumMovimiento, $procedimiento);
+						$stmtInsert->execute();
+				
+						$resultado = true;
+						$mensaje   = "Registro guardado en tbl_apoyo_inmunohistoquimica";
+						$datos     = [
+							"IdCuentaAtencion"   => $IdCuentaAtencion,
+							"NroOrdenMovimiento" => $NroOrdenMovimiento,
+							"IdNumMovimiento"    => $IdNumMovimiento,
+							"idPato"             => $idPato,
+							"procedimiento"      => $procedimiento
+						];
+				
+					} catch (Exception $e) {
+						$resultado = false;
+						$mensaje   = "Error en case 20: " . $e->getMessage();
+						$datos     = null;
+						error_log($mensaje);
+					}
+				
+					break;
+				}
+				
+				echo json_encode(["resultado"=>$resultado,"mensaje"=>$mensaje,"datos"=>$datos]);

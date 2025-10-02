@@ -7137,70 +7137,108 @@ window.onload = function () {
             
             
             
-            async function vistaPreviaIhqHq(){
-                
-                const result = await validarPagosPendientes();
-                if(result==true){
-                    res =JSON.parse(result);
-                console.log('res',res);
-                datos=res.datos;
-
-                
-                    if (datos.length > 0 && datos[0].idOrdenPago!= null && datos[0].IdComprobantePago==null) {
-                    alert('EL Paciente tiene Orden de Pago Nº: ' + datos[0].idOrdenPago);
-                    return;
+            async function vistaPreviaIhqHq() {
+                // Declarar el botón solo una vez
+                var boton = document.getElementById("btnIhqHq");
+                var originalText = boton ? boton.innerText : null;
+                var interval = null;
+            
+                // función para iniciar el bloqueo con contador
+                function startBlock() {
+                    if (!boton) { console.warn('No se encontró #btnIhqHq'); return; }
+                    if (boton.dataset.processing === '1') return; // ya bloqueado
+                    boton.dataset.processing = '1';
+                    boton.setAttribute('disabled', 'true');
+                    var remaining = 30;
+                    boton.innerText = `Generando... (${remaining}s)`;
+                    interval = setInterval(() => {
+                        remaining--;
+                        if (remaining <= 0) {
+                            clearInterval(interval);
+                            boton.removeAttribute('disabled');
+                            if (originalText !== null) boton.innerText = originalText;
+                            delete boton.dataset.processing;
+                            interval = null;
+                        } else {
+                            boton.innerText = `Generando... (${remaining}s)`;
+                        }
+                    }, 1000);
+                }
+            
+                // limpieza que re-habilita inmediatamente (para retornos tempranos o errores)
+                function cleanup() {
+                    if (!boton) return;
+                    if (interval) { clearInterval(interval); interval = null; }
+                    boton.removeAttribute('disabled');
+                    if (originalText !== null) boton.innerText = originalText;
+                    delete boton.dataset.processing;
+                }
+            
+                // arrancamos bloqueo apenas entra la función
+                startBlock();
+            
+                try {
+                    // --- tu código original (idéntico en lógica) ---
+                    const result = await validarPagosPendientes();
+            
+                    const datos8 = result.res8.datos;        // case 8 (validación de pagos)
+                    const datosInmuno = result.resInmuno.datos; // case 6 (movimiento inmunohistoquímica)
+            
+                    console.log("Datos case 8:", datos8);
+                    console.log("Movimiento inmunohistoquímica creado:", datosInmuno);
+            
+                    // --- Validación SOLO con datos del case 8 ---
+                    if (datos8.length > 0 && datos8[0].idOrdenPago != null && datos8[0].IdComprobantePago == null) {
+                        alert('EL Paciente tiene Orden de Pago Nº: ' + datos8[0].idOrdenPago);
+                        cleanup();
+                        return;
+                    } else {
+                        var idAuditorAsignado = $("#idAuditorAsignado").val();
+                        var nomApeConfirApepat = $("#nomApeConfirApepat").val();
+                        var iduser = $("#iduser2").val();
+            
+                        if (idAuditorAsignado == "") {
+                            alert("Seleccione el médico patólogo que confirma el estudio.");
+                            cleanup();
+                            return;
+                        } else if (nomApeConfirApepat == "") {
+                            alert("Seleccione el médico patólogo que confirma el estudio.");
+                            cleanup();
+                            return;
+                        } else if (nomApeConfirApepat != iduser) {
+                            alert("Solo puede generar el informe el usuario que confirme el estudio.");
+                            cleanup();
+                            return;
+                        } else {
+                            // 👉 opción 1: abrir el modal directamente
+                            var modal = document.getElementById("ventanaModalIhqHq");
+                            var span = document.getElementsByClassName("cerrar")[0];
+            
+                            if (modal) {
+                                modal.style.display = "block"; // se abre en el primer clic ✅
+                            }
+            
+                            if (span) {
+                                span.addEventListener("click", function () {
+                                    modal.style.display = "none";
+                                });
+                            }
+            
+                            window.addEventListener("click", function (event) {
+                                if (event.target == modal) {
+                                    modal.style.display = "none";
+                                }
+                            });
+            
+                            // Aquí puedes usar el movimiento inmunohistoquímica recién creado
+                            console.log("Usando info del movimiento inmuno:", datosInmuno);
+                        }
                     }
-
+                } catch (err) {
+                    console.error(err);
+                    cleanup();
                 }
-                   
-                var idAuditorAsignado = $("#idAuditorAsignado").val();
-                    var nomApeConfirApepat = $("#nomApeConfirApepat").val();
-                    var iduser = $("#iduser2").val();
-                    
-                       if(idAuditorAsignado ==""){
-                                   alert("Seleccione el médico patólogo que confirma el estudio.")
-                                   
-                       }else if(nomApeConfirApepat ==""){
-                           alert("Seleccione el médico patólogo que confirma el estudio.")
-                           
-                       }else if(nomApeConfirApepat != iduser){
-                           alert("Solo puede generar el informe el usuario que confirme el estudio.")
-                           
-                       }else{
-                           
-                               var modal = document.getElementById("ventanaModalIhqHq");
-   
-                               
-                               var boton = document.getElementById("btnIhqHq");
-                               
-                               
-                               var span = document.getElementsByClassName("cerrar")[0];
-                               
-                             
-                               boton.addEventListener("click",function() {
-                                 modal.style.display = "block";
-                               });
-                               
-                               
-                               span.addEventListener("click",function() {
-                                 modal.style.display = "none";
-                               });
-                               
-                               window.addEventListener("click",function(event) {
-                                 if (event.target == modal) {
-                                   modal.style.display = "none";
-                                 }
-                               });
-                        
-                    
-
-                }
- 
-
-                
-                
-                 
-            } 
+            }
 
 
             
@@ -7252,6 +7290,28 @@ window.onload = function () {
                 
               
             }
+
+            async function validarPagosPendientes2() {
+                var ctinmuno = $("#ctinmuno").val();               
+                var numMovimiento = $("#nroMovimiento").val();               
+            
+                try {
+                    let res = await $.ajax({
+                        url: './Controlador/ejecutarResys.php?',
+                        method: 'GET', 
+                        data: { 
+                            opcionResys:8,
+                            IdCuentaAtencion: ctinmuno,
+                            IdNumeroMovimiento: numMovimiento
+                        }
+                    });
+                    console.log('datos de pago', res);
+                    return res; // Devuelve el resultado de la llamada AJAX
+                } catch (error) {
+                    console.error("Ocurrió un error al obtener los datos: ", error);
+                }
+            }
+
            
 
 
@@ -7260,11 +7320,26 @@ window.onload = function () {
            } 
            async function validarPagosPendientes() {
             var ctinmuno = $("#ctinmuno").val();               
-            var numMovimiento = $("#nroMovimiento").val();               
+            var numMovimiento = $("#nroMovimiento").val(); 
+            var IdOrdenReceta = $('#nroOrdenReceta').val();
+            var IdUsuario = $('#iduser').val();
+            var nroOrdenMovimiento = $('#nroOrdenMovimiento').val();
+            var IdEmpleado = $('#idAuditorAsignado option:selected').data('codcompatible');
+            var IdMedico = 0;
+        
+            // Buscar el IdMedico vinculado
+            let rneMedicoPatologo  = await buscarDatosMedicoVinculado(IdEmpleado);
+            if (rneMedicoPatologo.resultado) {
+                IdMedico = rneMedicoPatologo.datos.IdMedico;
+            } else {
+                console.log('Id medico no encontrado en galenos');
+            }
+            console.log('Id medico encontrado en galenos', IdMedico);
         
             try {
-                let res = await $.ajax({
-                    url: './Controlador/ejecutarResys.php?',
+                // --- 1️ Validar pagos pendientes (opcionResys = 8) ---
+                let res8 = await $.ajax({
+                    url: './Controlador/ejecutarResys.php',
                     method: 'GET', 
                     data: { 
                         opcionResys: 8,
@@ -7272,10 +7347,63 @@ window.onload = function () {
                         IdNumeroMovimiento: numMovimiento
                     }
                 });
-                console.log('datos de pago', res);
-                return res; // Devuelve el resultado de la llamada AJAX
+        
+                // --- 2️ Crear nuevo movimiento de Inmunohistoquímica (opcionResys = 6) ---
+                let resInmunoRaw = await $.ajax({
+                    url: './Controlador/ejecutarResys.php',
+                    method: 'GET', 
+                    data: { 
+                        opcionResys: 6,
+                        IdCuenta: ctinmuno,
+                        IdPuntoCarga: 3,
+                        IdPersonaTomaLab: IdEmpleado, // quien toma la muestra
+                        MediOrdena: $("#mediSolicitante").val(), // médico solicitante
+                        idProductoCPT: 50898, // CPT fijo: inmunohistoquímica
+                        idProductoCPT2: 0,
+                        IdUsuario: IdUsuario,
+                        IdMedico: IdMedico,
+                        IdservicioEgreso: $('#servicioPat').val(),
+                        IdOrden: $('#IdOrden').val(),
+                        CantidadProce: 1,
+                        IdtipoFinanciamiento: $('#financiaPTO').val(),
+                        NroOrdenReceta: IdOrdenReceta
+                    }
+                });
+        
+                let resInmuno = JSON.parse(resInmunoRaw);
+                console.log("Movimiento inmunohistoquímica creado:", resInmuno);
+        
+                if (!resInmuno.resultado || !resInmuno.datos || !resInmuno.datos.IdMovimiento) {
+                    throw new Error("No se obtuvo IdMovimiento del case 6");
+                }
+        
+                // --- 3️ Insertar registro en apoyo_inmunohistoquimica (case 20) ---
+                let res20Raw = await $.ajax({
+                    url: './Controlador/ejecutarResys.php',
+                    method: 'GET',
+                    data: {
+                        opcionResys: 20,
+                        IdCuentaAtencion: ctinmuno, 
+                        NroOrdenMovimiento: resInmuno.datos.IdOrdenMovimiento,
+                        IdNumMovimiento: resInmuno.datos.IdMovimiento,
+                        procedimiento: 50898 // CPT fijo
+                    }
+                });
+        
+                let res20 = JSON.parse(res20Raw);
+                console.log("Registro case 20:", res20);
+
+                
+        
+                return {
+                    res8: JSON.parse(res8),
+                    resInmuno: resInmuno,
+                    res20: res20
+                };
+        
             } catch (error) {
-                console.error("Ocurrió un error al obtener los datos: ", error);
+                console.error("Ocurrió un error en el flujo: ", error);
+                return { resultado: false, mensaje: error.message, datos: null };
             }
         }
 
