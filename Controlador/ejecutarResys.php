@@ -364,7 +364,7 @@ include_once 'controllerResys.php';
 			
 
 				case 20:
-					include_once 'Conexion.php';
+					include_once 'conexion.php';
 					$conn = Conectar::conexion(); // conexión MySQLi
 				
 					// Capturar parámetros
@@ -387,7 +387,7 @@ include_once 'controllerResys.php';
 				
 						// --- 1) Obtener el último idPato de la cuenta ---
 						$sqlGetPato = "SELECT idPato 
-									   FROM tbl_registropacientespatologia 
+									   FROM tbl_registroPacientesPatologia 
 									   WHERE IdCuentaAtencion = ? 
 									   ORDER BY idPato ASC LIMIT 1";
 						$stmtPato = $conn->prepare($sqlGetPato);

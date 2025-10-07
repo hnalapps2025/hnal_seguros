@@ -7138,15 +7138,21 @@ window.onload = function () {
             
             
             async function vistaPreviaIhqHq() {
-                // Declarar el botón solo una vez
+                console.log("🟢 Entrando a vistaPreviaIhqHq()...");
+            
                 var boton = document.getElementById("btnIhqHq");
                 var originalText = boton ? boton.innerText : null;
                 var interval = null;
             
-                // función para iniciar el bloqueo con contador
                 function startBlock() {
-                    if (!boton) { console.warn('No se encontró #btnIhqHq'); return; }
-                    if (boton.dataset.processing === '1') return; // ya bloqueado
+                    if (!boton) {
+                        console.warn('⚠️ No se encontró #btnIhqHq');
+                        return;
+                    }
+                    if (boton.dataset.processing === '1') {
+                        console.log('⏸️ Botón ya está procesando');
+                        return;
+                    }
                     boton.dataset.processing = '1';
                     boton.setAttribute('disabled', 'true');
                     var remaining = 30;
@@ -7165,7 +7171,6 @@ window.onload = function () {
                     }, 1000);
                 }
             
-                // limpieza que re-habilita inmediatamente (para retornos tempranos o errores)
                 function cleanup() {
                     if (!boton) return;
                     if (interval) { clearInterval(interval); interval = null; }
@@ -7174,121 +7179,89 @@ window.onload = function () {
                     delete boton.dataset.processing;
                 }
             
-                // arrancamos bloqueo apenas entra la función
+                // bloqueo del botón
                 startBlock();
             
                 try {
-                    // --- tu código original (idéntico en lógica) ---
+                    console.log("🔍 Llamando a validarPagosPendientes()...");
                     const result = await validarPagosPendientes();
+                    console.log("✅ Respuesta recibida:", result);
             
-                    const datos8 = result.res8.datos;        // case 8 (validación de pagos)
-                    const datosInmuno = result.resInmuno.datos; // case 6 (movimiento inmunohistoquímica)
+                    const datos8 = result.res8?.datos || [];
+                    const datosInmuno = result.resInmuno?.datos || [];
             
-                    console.log("Datos case 8:", datos8);
-                    console.log("Movimiento inmunohistoquímica creado:", datosInmuno);
+                    console.log("📦 Datos case 8:", datos8);
+                    console.log("🧬 Movimiento inmunohistoquímica creado:", datosInmuno);
             
-                    // --- Validación SOLO con datos del case 8 ---
                     if (datos8.length > 0 && datos8[0].idOrdenPago != null && datos8[0].IdComprobantePago == null) {
+                        console.warn("🚫 Paciente con orden de pago pendiente:", datos8[0].idOrdenPago);
                         alert('EL Paciente tiene Orden de Pago Nº: ' + datos8[0].idOrdenPago);
                         cleanup();
                         return;
-                    } else {
-                        var idAuditorAsignado = $("#idAuditorAsignado").val();
-                        var nomApeConfirApepat = $("#nomApeConfirApepat").val();
-                        var iduser = $("#iduser2").val();
-            
-                        if (idAuditorAsignado == "") {
-                            alert("Seleccione el médico patólogo que confirma el estudio.");
-                            cleanup();
-                            return;
-                        } else if (nomApeConfirApepat == "") {
-                            alert("Seleccione el médico patólogo que confirma el estudio.");
-                            cleanup();
-                            return;
-                        } else if (nomApeConfirApepat != iduser) {
-                            alert("Solo puede generar el informe el usuario que confirme el estudio.");
-                            cleanup();
-                            return;
-                        } else {
-                            // 👉 opción 1: abrir el modal directamente
-                            var modal = document.getElementById("ventanaModalIhqHq");
-                            var span = document.getElementsByClassName("cerrar")[0];
-            
-                            if (modal) {
-                                modal.style.display = "block"; // se abre en el primer clic ✅
-                            }
-            
-                            if (span) {
-                                span.addEventListener("click", function () {
-                                    modal.style.display = "none";
-                                });
-                            }
-            
-                            window.addEventListener("click", function (event) {
-                                if (event.target == modal) {
-                                    modal.style.display = "none";
-                                }
-                            });
-            
-                            // Aquí puedes usar el movimiento inmunohistoquímica recién creado
-                            console.log("Usando info del movimiento inmuno:", datosInmuno);
-                        }
                     }
+            
+                    var idAuditorAsignado = $("#idAuditorAsignado").val();
+                    var nomApeConfirApepat = $("#nomApeConfirApepat").val();
+                    var iduser = $("#iduser2").val();
+            
+                    console.log("🧾 idAuditorAsignado:", idAuditorAsignado);
+                    console.log("🧾 nomApeConfirApepat:", nomApeConfirApepat);
+                    console.log("🧾 iduser:", iduser);
+            
+                    if (idAuditorAsignado == "") {
+                        console.warn("⚠️ Falta seleccionar patólogo que confirma el estudio");
+                        alert("Seleccione el médico patólogo que confirma el estudio.");
+                        cleanup();
+                        return;
+                    }
+                    if (nomApeConfirApepat == "") {
+                        console.warn("⚠️ Falta seleccionar nombre del patólogo");
+                        alert("Seleccione el médico patólogo que confirma el estudio.");
+                        cleanup();
+                        return;
+                    }
+                    if (nomApeConfirApepat != iduser) {
+                        console.warn("⚠️ Usuario no coincide con el confirmante");
+                        alert("Solo puede generar el informe el usuario que confirme el estudio.");
+                        cleanup();
+                        return;
+                    }
+            
+                    // --- Si todo pasa, intentamos abrir el modal ---
+                    console.log("✅ Pasaron todas las validaciones, intentando abrir el modal...");
+            
+                    var modal = document.getElementById("ventanaModalIhqHq");
+                    var span = document.getElementsByClassName("cerrar")[0];
+            
+                    if (!modal) {
+                        console.error("❌ No se encontró el modal con id 'ventanaModalIhqHq'");
+                    } else {
+                        modal.style.display = "block";
+                        console.log("🎉 Modal mostrado correctamente");
+                    }
+            
+                    if (!span) {
+                        console.warn("⚠️ No se encontró elemento con clase .cerrar");
+                    } else {
+                        span.addEventListener("click", function () {
+                            console.log("🧩 Clic en botón cerrar modal");
+                            modal.style.display = "none";
+                        });
+                    }
+            
+                    window.addEventListener("click", function (event) {
+                        if (event.target == modal) {
+                            console.log("🧩 Click fuera del modal -> cerrando");
+                            modal.style.display = "none";
+                        }
+                    });
+            
+                    console.log("🧠 Información de movimiento inmuno usada:", datosInmuno);
+            
                 } catch (err) {
-                    console.error(err);
+                    console.error("💥 Error en vistaPreviaIhqHq:", err);
                     cleanup();
                 }
-            }
-
-
-            
-           async function vistaPreviaCerEspx(){
-               
-            const result = await validarPagosPendientes();
-            if(result==true){
-                res =JSON.parse(result);
-            console.log('res',res);
-            datos=res.datos;
-
-            
-                if (datos.length > 0 && datos[0].idOrdenPago!= null && datos[0].IdComprobantePago==null) {
-                alert('EL Paciente tiene Orden de Pago Nº: ' + datos[0].idOrdenPago);
-                return;
-                }
-
-            }
-
-                  
-                var idAuditorAsignado = $("#idAuditorAsignado").val();
-                var iduser = $("#iduser2").val();
-                
-                   if(idAuditorAsignado ==""){
-                               alert("Seleccione el médico patólogo que confirma el estudio.")
-                               
-                   }else{
-                       
-                           var modal = document.getElementById("ventanaModalCerEspec");
-                           var boton = document.getElementById("btnCerEspx");
-                           var span = document.getElementsByClassName("cerrar")[0];
-                           
-                         
-                           boton.addEventListener("click",function() {
-                             modal.style.display = "block";
-                           });
-                           
-                           
-                           span.addEventListener("click",function() {
-                             modal.style.display = "none";
-                           });
-                           
-                           window.addEventListener("click",function(event) {
-                             if (event.target == modal) {
-                               modal.style.display = "none";
-                             }
-                           });
-                    
-                
-              
             }
 
             async function validarPagosPendientes2() {
@@ -7317,7 +7290,7 @@ window.onload = function () {
 
               
                 
-           } 
+           
            async function validarPagosPendientes() {
             var ctinmuno = $("#ctinmuno").val();               
             var numMovimiento = $("#nroMovimiento").val(); 
